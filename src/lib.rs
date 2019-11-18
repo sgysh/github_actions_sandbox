@@ -6,6 +6,6 @@ mod tests {
     }
     #[test]
     fn fail() {
-        assert_eq!(2 + 2, 2);
+        assert_eq!(2 - 2, 0);
     }
 }
